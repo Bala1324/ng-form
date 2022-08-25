@@ -8,6 +8,8 @@ import {NgForm} from '@angular/forms'
 export class AppComponent {
   title = 'templete-form';
 
+  title2='title'
+
   @ViewChild('userForm') uf:NgForm;
 
   setDefaultValue(){
